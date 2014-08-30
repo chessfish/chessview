@@ -12,6 +12,10 @@ gulp.task('browserify', function () {
 		require('./lib/index.js', {
 			expose: 'chessview'
 		}).
+		require('mercury', {
+			expose: 'mercury'
+		}).
+		external('chesslib').
 		bundle().
 		pipe(source('chessview.js')).
 		pipe(gulp.dest('browser'))

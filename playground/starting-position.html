@@ -16,13 +16,14 @@
 <div id="chessview"></div>
 <h3>FEN:</h3>
 <div id="fenCode"></div>
-<script src="../node_modules/traceur/bin/traceur-runtime.js"></script>
-<script src="../browser/bundle.js"></script>
+<script src="../vendor/chesslib.js"></script>
+<script src="../browser/chessview.js"></script>
 <script>
 var mercury = require('mercury');
-var chess = require('chessview');
-var FEN = chess.FEN;
-var playable = chess.ui.playable;
+var chesslib = require('chesslib');
+var chessview = require('chessview');
+var FEN = chesslib.FEN;
+var playable = chessview.playable;
 
 var state = playable(fromQuery());
 

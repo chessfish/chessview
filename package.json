@@ -24,7 +24,7 @@
     "vinyl-source-stream": "^0.1.1"
   },
   "dependencies": {
-    "chesslib": "^0.9.8",
+    "chesslib": "^0.9.10",
     "global": "^4.2.1",
     "gulp-uglify": "^1.0.0",
     "lodash.assign": "^2.4.1",
