@@ -1,0 +1,19 @@
+{
+  "name": "chessview",
+  "version": "0.9.6",
+  "description": "An FRP-style chess view",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:humanchimp/chessview.git"
+  },
+  "author": "Christopher Thorn <morphcham@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/humanchimp/chessview/issues"
+  },
+  "homepage": "https://github.com/humanchimp/chessview"
+}
