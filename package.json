@@ -15,5 +15,15 @@
   "bugs": {
     "url": "https://github.com/humanchimp/chessview/issues"
   },
-  "homepage": "https://github.com/humanchimp/chessview"
+  "homepage": "https://github.com/humanchimp/chessview",
+  "devDependencies": {
+    "gulp": "^3.8.7",
+    "gulp-traceur": "^0.13.0"
+  },
+  "dependencies": {
+    "chesslib": "^0.9.8",
+    "global": "^4.2.1",
+    "lodash.assign": "^2.4.1",
+    "mercury": "^6.0.1"
+  }
 }
