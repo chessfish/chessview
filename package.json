@@ -13,9 +13,9 @@
   "author": "Christopher Thorn <morphcham@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/humanchimp/chessview/issues"
+    "url": "https://github.com/chessfish/chessview/issues"
   },
-  "homepage": "https://github.com/humanchimp/chessview",
+  "homepage": "https://github.com/chessfish/chessview",
   "devDependencies": {
     "browserify": "^5.11.0",
     "gulp": "^3.8.7",
