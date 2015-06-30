@@ -77,9 +77,9 @@ function fromQuery() {
     case '960':
     case 'ninesixty':
     case 'fischerandom':
-      return chess.fischerandom();
+      return chesslib.fischerandom();
     case 'doublefischerandom':
-      return chess.doubleFischerandom();
+      return chesslib.doubleFischerandom();
     default:
       return FEN.parse(plainSearch);
     }
